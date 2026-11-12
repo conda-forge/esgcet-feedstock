@@ -1,6 +1,6 @@
 context:
   name: esgcet
-  version: "5.5.3"
+  version: "5.5.4"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/esgcet-${{ version }}.tar.gz
-  sha256: d3b83e6db270ad932df1031ba3187312c70ef049b9e4e1fd6fc3e212a84f4bad
+  sha256: af31a7cb72bc7d7c5389875d4aada19ec728a8688f3bd4fad37b70ac1dfc8f5f
 
 build:
   number: 0
